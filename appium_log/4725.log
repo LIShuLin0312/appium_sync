@@ -1,0 +1,1284 @@
+[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4725
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at net.js:1404:9
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+D:\Appium\appium_sync>mDriver.createSession() with args: [{"deviceName":"127.0.0.1:62025","platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformVersion":"5.1.1","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appPackage":"com.tal.kaoyan","noReset":false,"udid":"127.0.0.1:62025"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1527579566031 (15:39:26 GMT+0800 (中国标准时间))
+[35m[Appium][39m Merged W3C capabilities {"firstMatch":[{}],"alwaysMatch":{"platformName... into desiredCapabilities object {"deviceName":"127.0.0.1:62025","platformName":...
+[35m[Appium][39m Creating new AndroidDriver (v1.40.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   deviceName: 127.0.0.1:62025
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   app: C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   udid: 127.0.0.1:62025
+[debug] [35m[BaseDriver][39m W3C capabilities [] and MJSONWP desired capabilities  were provided
+[35m[BaseDriver][39m Falling back to MJSONWP desired capabilities
+[35m[BaseDriver][39m Session created with session id: 28cdb68c-4f11-4f78-b319-5af335ec8bb1
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_05
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 2 'build-tools' folders under 'E:\Andriod_sdk' (newest first):
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.2
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.1
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62025
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62025
+[35m[BaseDriver][39m Using local app 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell echo ping'
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-G955N
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys package com.tal.kaoyan'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'com.tal.kaoyan' package does not require upgrade ('3.1.0' >= '3.1.0')
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[35m[ADB][39m Successfully extracted 1697 strings from 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4726 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 forward tcp\:4726 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.10.2\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62025","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 28cdb68c-4f11-4f78-b319-5af335ec8bb1 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1527579575138 (15:39:35 GMT+0800 (中国标准时间))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"127.0.0.1:62025","platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformVersion":"5.1.1","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appPackage":"com.tal.kaoyan","noReset":false,"udid":"127.0.0.1:62025"},"deviceName":"127.0.0.1:62025","platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformVersion":"5.1.1","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appPackage":"com.tal.kaoyan","noReset":false,"udid":"127.0.0.1:62025","deviceUDID":"127.0.0.1:62025","deviceScreenSize":"900x1440","deviceModel":"SM-G955N","deviceManufacturer":"samsung"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9121 ms - 924[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/28cdb68c-4f11-4f78-b319-5af335ec8bb1/timeouts/implicit_wait[39m
+[35m[HTTP][39m [90m{"sessionId":"28cdb68c-4f11-4f78-b319-5af335ec8bb1","ms":5000}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.implicitWait() with args: [5000,"28cdb68c-4f11-4f78-b319-5af335ec8bb1"]
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[MJSONWP][39m Responding to client with driver.implicitWait() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/28cdb68c-4f11-4f78-b319-5af335ec8bb1/timeouts/implicit_wait [39m[32m200[39m [90m6 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+
+D:\Appium\appium_sync>[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4725
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at net.js:1404:9
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+D:\Appium\appium_sync>mDriver.createSession() with args: [{"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appPackage":"com.tal.kaoyan","platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62025","deviceName":"127.0.0.1:62025","platformVersion":"5.1.1","noReset":false},null,{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1527581352429 (16:09:12 GMT+0800 (中国标准时间))
+[35m[Appium][39m Merged W3C capabilities {"alwaysMatch":{"platformName":"Android"},"firs... into desiredCapabilities object {"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1....
+[35m[Appium][39m Creating new AndroidDriver (v1.40.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   udid: 127.0.0.1:62025
+[35m[Appium][39m   deviceName: 127.0.0.1:62025
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   noReset: false
+[debug] [35m[BaseDriver][39m W3C capabilities [] and MJSONWP desired capabilities  were provided
+[35m[BaseDriver][39m Falling back to MJSONWP desired capabilities
+[35m[BaseDriver][39m Session created with session id: 38f0ea3f-4a44-4b3a-9692-49750444faa8
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_05
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 2 'build-tools' folders under 'E:\Andriod_sdk' (newest first):
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.2
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.1
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62025
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62025
+[35m[BaseDriver][39m Using local app 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell echo ping'
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-G955N
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys package com.tal.kaoyan'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'com.tal.kaoyan' package does not require upgrade ('3.1.0' >= '3.1.0')
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[35m[ADB][39m Successfully extracted 1697 strings from 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4726 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 forward tcp\:4726 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.10.2\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62025","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 38f0ea3f-4a44-4b3a-9692-49750444faa8 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1527581361682 (16:09:21 GMT+0800 (中国标准时间))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appPackage":"com.tal.kaoyan","platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62025","deviceName":"127.0.0.1:62025","platformVersion":"5.1.1","noReset":false},"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appPackage":"com.tal.kaoyan","platformName":"Android","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62025","deviceName":"127.0.0.1:62025","platformVersion":"5.1.1","noReset":false,"deviceUDID":"127.0.0.1:62025","deviceScreenSize":"900x1440","deviceModel":"SM-G955N","deviceManufacturer":"samsung"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9267 ms - 924[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/38f0ea3f-4a44-4b3a-9692-49750444faa8/timeouts/implicit_wait[39m
+[35m[HTTP][39m [90m{"sessionId":"38f0ea3f-4a44-4b3a-9692-49750444faa8","ms":5000}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.implicitWait() with args: [5000,"38f0ea3f-4a44-4b3a-9692-49750444faa8"]
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[MJSONWP][39m Responding to client with driver.implicitWait() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/38f0ea3f-4a44-4b3a-9692-49750444faa8/timeouts/implicit_wait [39m[32m200[39m [90m5 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+
+D:\Appium\appium_sync>[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4725
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at net.js:1404:9
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+D:\Appium\appium_sync>mDriver.createSession() with args: [{"deviceName":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","noReset":false,"udid":"127.0.0.1:62025","platformVersion":"5.1.1"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1527582256860 (16:24:16 GMT+0800 (中国标准时间))
+[35m[Appium][39m Merged W3C capabilities {"firstMatch":[{}],"alwaysMatch":{"platformName... into desiredCapabilities object {"deviceName":"127.0.0.1:62025","appPackage":"c...
+[35m[Appium][39m Creating new AndroidDriver (v1.40.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   deviceName: 127.0.0.1:62025
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   app: C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   udid: 127.0.0.1:62025
+[35m[Appium][39m   platformVersion: 5.1.1
+[debug] [35m[BaseDriver][39m W3C capabilities [] and MJSONWP desired capabilities  were provided
+[35m[BaseDriver][39m Falling back to MJSONWP desired capabilities
+[35m[BaseDriver][39m Session created with session id: 1f19404e-e30a-4600-b919-ce0a6faddf38
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_05
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 2 'build-tools' folders under 'E:\Andriod_sdk' (newest first):
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.2
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.1
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62025
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62025
+[35m[BaseDriver][39m Using local app 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell echo ping'
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-G955N
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys package com.tal.kaoyan'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'com.tal.kaoyan' package does not require upgrade ('3.1.0' >= '3.1.0')
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[35m[ADB][39m Successfully extracted 1697 strings from 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4726 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 forward tcp\:4726 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.10.2\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62025","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Loading json...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 1f19404e-e30a-4600-b919-ce0a6faddf38 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1527582264295 (16:24:24 GMT+0800 (中国标准时间))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"deviceName":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","noReset":false,"udid":"127.0.0.1:62025","platformVersion":"5.1.1"},"deviceName":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","noReset":false,"udid":"127.0.0.1:62025","platformVersion":"5.1.1","deviceUDID":"127.0.0.1:62025","deviceScreenSize":"900x1440","deviceModel":"SM-G955N","deviceManufacturer":"samsung"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7447 ms - 924[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/timeouts/implicit_wait[39m
+[35m[HTTP][39m [90m{"sessionId":"1f19404e-e30a-4600-b919-ce0a6faddf38","ms":5000}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.implicitWait() with args: [5000,"1f19404e-e30a-4600-b919-ce0a6faddf38"]
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[MJSONWP][39m Responding to client with driver.implicitWait() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/timeouts/implicit_wait [39m[32m200[39m [90m8 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element[39m
+[35m[HTTP][39m [90m{"sessionId":"1f19404e-e30a-4600-b919-ce0a6faddf38","using":"id","value":"android:id/button2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","android:id/button2","1f19404e-e30a-4600-b919-ce0a6faddf38"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'android:id/button2' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/button2]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element [39m[32m200[39m [90m678 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element/1/click[39m
+[35m[HTTP][39m [90m{"id":"1","sessionId":"1f19404e-e30a-4600-b919-ce0a6faddf38"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["1","1f19404e-e30a-4600-b919-ce0a6faddf38"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element/1/click [39m[32m200[39m [90m330 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element[39m
+[35m[HTTP][39m [90m{"sessionId":"1f19404e-e30a-4600-b919-ce0a6faddf38","using":"id","value":"com.tal.kaoyan:id/tv_skip"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","com.tal.kaoyan:id/tv_skip","1f19404e-e30a-4600-b919-ce0a6faddf38"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.tal.kaoyan:id/tv_skip' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tal.kaoyan:id/tv_skip]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element [39m[32m200[39m [90m519 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element/2/click[39m
+[35m[HTTP][39m [90m{"id":"2","sessionId":"1f19404e-e30a-4600-b919-ce0a6faddf38"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["2","1f19404e-e30a-4600-b919-ce0a6faddf38"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/1f19404e-e30a-4600-b919-ce0a6faddf38/element/2/click [39m[32m200[39m [90m841 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 60 seconds for a command
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 1f19404e-e30a-4600-b919-ce0a6faddf38 from our master session list
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Pressing the HOME button
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell input keyevent 3'
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Time: 66.168
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] OK (1 test)
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+[debug] [35m[UiAutomator][39m Shutting down UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'stopping'
+[debug] [35m[UiAutomator][39m UiAutomator shut down normally
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop io.appium.unlock'
+[debug] [35m[AndroidDriver][39m Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+
+D:\Appium\appium_sync>[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[HTTP][39m Could not start REST http interface listener. The requested port 
+D:\Appium\appium_sync>lease make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4725
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at net.js:1404:9
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+D:\Appium\appium_sync>[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4725
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at net.js:1404:9
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+D:\Appium\appium_sync>mDriver.createSession() with args: [{"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","platformVersion":"5.1.1","noReset":false,"platformName":"Android","deviceName":"127.0.0.1:62025"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android"}}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1527585820652 (17:23:40 GMT+0800 (中国标准时间))
+[35m[Appium][39m Merged W3C capabilities {"firstMatch":[{}],"alwaysMatch":{"platformName... into desiredCapabilities object {"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1....
+[35m[Appium][39m Creating new AndroidDriver (v1.40.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   udid: 127.0.0.1:62025
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   deviceName: 127.0.0.1:62025
+[debug] [35m[BaseDriver][39m W3C capabilities [] and MJSONWP desired capabilities  were provided
+[35m[BaseDriver][39m Falling back to MJSONWP desired capabilities
+[35m[BaseDriver][39m Session created with session id: 68e8cf85-16f3-442f-a95d-f6a8f47d5b92
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_05
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 2 'build-tools' folders under 'E:\Andriod_sdk' (newest first):
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.2
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.1
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62025
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62025
+[35m[BaseDriver][39m Using local app 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell echo ping'
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-G955N
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys package com.tal.kaoyan'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'com.tal.kaoyan' package does not require upgrade ('3.1.0' >= '3.1.0')
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[35m[ADB][39m Successfully extracted 1697 strings from 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4726 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 forward tcp\:4726 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.10.2\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62025","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 68e8cf85-16f3-442f-a95d-f6a8f47d5b92 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1527585828778 (17:23:48 GMT+0800 (中国标准时间))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","platformVersion":"5.1.1","noReset":false,"platformName":"Android","deviceName":"127.0.0.1:62025"},"app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","udid":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","platformVersion":"5.1.1","noReset":false,"platformName":"Android","deviceName":"127.0.0.1:62025","deviceUDID":"127.0.0.1:62025","deviceScreenSize":"900x1440","deviceModel":"SM-G955N","deviceManufacturer":"samsung"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m8137 ms - 924[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/timeouts/implicit_wait[39m
+[35m[HTTP][39m [90m{"sessionId":"68e8cf85-16f3-442f-a95d-f6a8f47d5b92","ms":5000}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.implicitWait() with args: [5000,"68e8cf85-16f3-442f-a95d-f6a8f47d5b92"]
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[MJSONWP][39m Responding to client with driver.implicitWait() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/timeouts/implicit_wait [39m[32m200[39m [90m5 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element[39m
+[35m[HTTP][39m [90m{"using":"id","sessionId":"68e8cf85-16f3-442f-a95d-f6a8f47d5b92","value":"android:id/button2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","android:id/button2","68e8cf85-16f3-442f-a95d-f6a8f47d5b92"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'android:id/button2' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/button2]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element [39m[32m200[39m [90m689 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element/1/click[39m
+[35m[HTTP][39m [90m{"id":"1","sessionId":"68e8cf85-16f3-442f-a95d-f6a8f47d5b92"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["1","68e8cf85-16f3-442f-a95d-f6a8f47d5b92"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element/1/click [39m[32m200[39m [90m264 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element[39m
+[35m[HTTP][39m [90m{"using":"id","sessionId":"68e8cf85-16f3-442f-a95d-f6a8f47d5b92","value":"com.tal.kaoyan:id/tv_skip"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","com.tal.kaoyan:id/tv_skip","68e8cf85-16f3-442f-a95d-f6a8f47d5b92"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.tal.kaoyan:id/tv_skip' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tal.kaoyan:id/tv_skip]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element [39m[32m200[39m [90m511 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element/2/click[39m
+[35m[HTTP][39m [90m{"id":"2","sessionId":"68e8cf85-16f3-442f-a95d-f6a8f47d5b92"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["2","68e8cf85-16f3-442f-a95d-f6a8f47d5b92"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/68e8cf85-16f3-442f-a95d-f6a8f47d5b92/element/2/click [39m[32m200[39m [90m352 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+
+D:\Appium\appium_sync>[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[Appium][39m Appium REST http interface listener started on 127.0.0.1:4725
+
+D:\Appium\appium_sync>[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4725
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at net.js:1404:9
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+D:\Appium\appium_sync>mDriver.createSession() with args: [{"platformVersion":"5.1.1","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","deviceName":"127.0.0.1:62025","udid":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","noReset":false},null,{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1527586169979 (17:29:29 GMT+0800 (中国标准时间))
+[35m[Appium][39m Merged W3C capabilities {"alwaysMatch":{"platformName":"Android"},"firs... into desiredCapabilities object {"platformVersion":"5.1.1","appActivity":"com.t...
+[35m[Appium][39m Creating new AndroidDriver (v1.40.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   deviceName: 127.0.0.1:62025
+[35m[Appium][39m   udid: 127.0.0.1:62025
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   app: C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[35m[Appium][39m   noReset: false
+[debug] [35m[BaseDriver][39m W3C capabilities [] and MJSONWP desired capabilities  were provided
+[35m[BaseDriver][39m Falling back to MJSONWP desired capabilities
+[35m[BaseDriver][39m Session created with session id: 0bcaaec1-d29e-4f12-966f-4351b9f8e0a2
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_05
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 2 'build-tools' folders under 'E:\Andriod_sdk' (newest first):
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.2
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.1
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62025
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62025
+[35m[BaseDriver][39m Using local app 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell echo ping'
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-G955N
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys package com.tal.kaoyan'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'com.tal.kaoyan' package does not require upgrade ('3.1.0' >= '3.1.0')
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[35m[ADB][39m Successfully extracted 1697 strings from 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4726 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 forward tcp\:4726 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.10.2\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62025","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Loading json...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 0bcaaec1-d29e-4f12-966f-4351b9f8e0a2 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1527586179594 (17:29:39 GMT+0800 (中国标准时间))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformVersion":"5.1.1","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","deviceName":"127.0.0.1:62025","udid":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","noReset":false},"platformVersion":"5.1.1","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","platformName":"Android","deviceName":"127.0.0.1:62025","udid":"127.0.0.1:62025","appPackage":"com.tal.kaoyan","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","noReset":false,"deviceUDID":"127.0.0.1:62025","deviceScreenSize":"900x1440","deviceModel":"SM-G955N","deviceManufacturer":"samsung"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m9626 ms - 924[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/timeouts/implicit_wait[39m
+[35m[HTTP][39m [90m{"ms":5000,"sessionId":"0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.implicitWait() with args: [5000,"0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"]
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[MJSONWP][39m Responding to client with driver.implicitWait() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/timeouts/implicit_wait [39m[32m200[39m [90m6 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"android:id/button2","sessionId":"0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","android:id/button2","0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'android:id/button2' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/button2]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element [39m[32m200[39m [90m559 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element/1/click[39m
+[35m[HTTP][39m [90m{"id":"1","sessionId":"0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["1","0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element/1/click [39m[32m200[39m [90m356 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.tal.kaoyan:id/tv_skip","sessionId":"0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","com.tal.kaoyan:id/tv_skip","0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.tal.kaoyan:id/tv_skip' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tal.kaoyan:id/tv_skip]
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element [39m[32m200[39m [90m555 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element/2/click[39m
+[35m[HTTP][39m [90m{"id":"2","sessionId":"0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["2","0bcaaec1-d29e-4f12-966f-4351b9f8e0a2"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/0bcaaec1-d29e-4f12-966f-4351b9f8e0a2/element/2/click [39m[32m200[39m [90m485 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 60 seconds for a command
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 0bcaaec1-d29e-4f12-966f-4351b9f8e0a2 from our master session list
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Pressing the HOME button
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell input keyevent 3'
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Time: 65.826
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] OK (1 test)
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[UiAutomator][39m Shutting down UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'stopping'
+[debug] [35m[UiAutomator][39m UiAutomator shut down normally
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop io.appium.unlock'
+[debug] [35m[AndroidDriver][39m Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+
+D:\Appium\appium_sync>[35m[Appium][39m Welcome to Appium v1.7.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   address: 127.0.0.1
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m   bootstrapPort: 4726
+[35m[HTTP][39m Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+Fatal Error: listen EADDRINUSE 127.0.0.1:4725
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at net.js:1404:9
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+
+D:\Appium\appium_sync>mDriver.createSession() with args: [{"noReset":false,"appPackage":"com.tal.kaoyan","platformName":"Android","platformVersion":"5.1.1","deviceName":"127.0.0.1:62025","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","udid":"127.0.0.1:62025","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},null,{"alwaysMatch":{"platformName":"Android"},"firstMatch":[{}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1527586733341 (17:38:53 GMT+0800 (中国标准时间))
+[35m[Appium][39m Merged W3C capabilities {"alwaysMatch":{"platformName":"Android"},"firs... into desiredCapabilities object {"noReset":false,"appPackage":"com.tal.kaoyan",...
+[35m[Appium][39m Creating new AndroidDriver (v1.40.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   noReset: false
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   platformVersion: 5.1.1
+[35m[Appium][39m   deviceName: 127.0.0.1:62025
+[35m[Appium][39m   app: C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[35m[Appium][39m   udid: 127.0.0.1:62025
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[debug] [35m[BaseDriver][39m W3C capabilities [] and MJSONWP desired capabilities  were provided
+[35m[BaseDriver][39m Falling back to MJSONWP desired capabilities
+[35m[BaseDriver][39m Session created with session id: 6c04932c-571c-49af-94e9-dbd231851799
+[debug] [35m[AndroidDriver][39m Getting Java version
+[35m[AndroidDriver][39m Java version is: 1.8.0_05
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 2 'build-tools' folders under 'E:\Andriod_sdk' (newest first):
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.2
+[35m[ADB][39m     E:/Andriod_sdk/build-tools/27.0.1
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62025
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from E:\Andriod_sdk\platform-tools\adb.exe
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62025
+[35m[BaseDriver][39m Using local app 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk'
+[debug] [35m[AndroidDriver][39m Checking whether app is actually present
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 wait-for-device'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell echo ping'
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 5.1.1
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell wm size'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': SM-G955N
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': samsung
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys package com.tal.kaoyan'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'com.tal.kaoyan' package does not require upgrade ('3.1.0' >= '3.1.0')
+[35m[AndroidDriver][39m Performing fast reset on 'com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidDriver][39m Extracting strings from apk
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+[debug] [35m[AndroidDriver][39m null
+[debug] [35m[AndroidDriver][39m C:\Users\Shuqing\AppData\Local\Temp\com.tal.kaoyan
+[debug] [35m[ADB][39m Extracting strings for language: default
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\Andriod_sdk\build-tools\27.0.2\aapt.exe
+[35m[ADB][39m Successfully extracted 1697 strings from 'C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk' resources for '(default)' configuration
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Local\\Temp\\com.tal.kaoyan\\strings.json /data/local/tmp'
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4726 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 forward tcp\:4726 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 push C\:\\Users\\Shuqing\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\_appium-android-bootstrap\@2.10.2\@appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62025","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell dumpsys window'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 22
+[debug] [35m[ADB][39m Device API level: 22
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[35m[Appium][39m New AndroidDriver session created successfully, session 6c04932c-571c-49af-94e9-dbd231851799 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1527586743652 (17:39:03 GMT+0800 (中国标准时间))
+[debug] [35m[MJSONWP][39m Responding to client with driver.createSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"noReset":false,"appPackage":"com.tal.kaoyan","platformName":"Android","platformVersion":"5.1.1","deviceName":"127.0.0.1:62025","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","udid":"127.0.0.1:62025","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity"},"noReset":false,"appPackage":"com.tal.kaoyan","platformName":"Android","platformVersion":"5.1.1","deviceName":"127.0.0.1:62025","app":"C:\\Users\\Shuqing\\Desktop\\kaoyan3.1.0.apk","udid":"127.0.0.1:62025","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","deviceUDID":"127.0.0.1:62025","deviceScreenSize":"900x1440","deviceModel":"SM-G955N","deviceManufacturer":"samsung"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10321 ms - 924[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/timeouts/implicit_wait[39m
+[35m[HTTP][39m [90m{"sessionId":"6c04932c-571c-49af-94e9-dbd231851799","ms":5000}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.implicitWait() with args: [5000,"6c04932c-571c-49af-94e9-dbd231851799"]
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[MJSONWP][39m Responding to client with driver.implicitWait() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/timeouts/implicit_wait [39m[32m200[39m [90m9 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element[39m
+[35m[HTTP][39m [90m{"sessionId":"6c04932c-571c-49af-94e9-dbd231851799","value":"android:id/button2","using":"id"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","android:id/button2","6c04932c-571c-49af-94e9-dbd231851799"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"android:id/button2","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'android:id/button2' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=android:id/button2]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"1"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element [39m[32m200[39m [90m577 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element/1/click[39m
+[35m[HTTP][39m [90m{"sessionId":"6c04932c-571c-49af-94e9-dbd231851799","id":"1"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["1","6c04932c-571c-49af-94e9-dbd231851799"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element/1/click [39m[32m200[39m [90m333 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element[39m
+[35m[HTTP][39m [90m{"sessionId":"6c04932c-571c-49af-94e9-dbd231851799","value":"com.tal.kaoyan:id/tv_skip","using":"id"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.findElement() with args: ["id","com.tal.kaoyan:id/tv_skip","6c04932c-571c-49af-94e9-dbd231851799"]
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [35m[BaseDriver][39m Waiting up to 5000 ms for condition
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"id","selector":"com.tal.kaoyan:id/tv_skip","context":"","multiple":false}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: find
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Finding 'com.tal.kaoyan:id/tv_skip' using 'ID' with the contextId: '' multiple: false
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Using: UiSelector[INSTANCE=0, RESOURCE_ID=com.tal.kaoyan:id/tv_skip]
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+[debug] [35m[MJSONWP][39m Responding to client with driver.findElement() result: {"ELEMENT":"2"}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element [39m[32m200[39m [90m513 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element/2/click[39m
+[35m[HTTP][39m [90m{"sessionId":"6c04932c-571c-49af-94e9-dbd231851799","id":"2"}[39m
+[debug] [35m[MJSONWP][39m Calling AppiumDriver.click() with args: ["2","6c04932c-571c-49af-94e9-dbd231851799"]
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command action: click
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[MJSONWP][39m Responding to client with driver.click() result: true
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6c04932c-571c-49af-94e9-dbd231851799/element/2/click [39m[32m200[39m [90m448 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 60 seconds for a command
+[debug] [35m[AndroidDriver][39m Shutting down Android driver
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 6c04932c-571c-49af-94e9-dbd231851799 from our master session list
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Pressing the HOME button
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell input keyevent 3'
+[debug] [35m[AndroidBootstrap][39m Sending command to android: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Closed client connection
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+[debug] [35m[AndroidBootstrap][39m Received command result from bootstrap
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Test results for WatcherResultPrinter=.
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] Time: 65.958
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] OK (1 test)
+[debug] [35m[AndroidBootstrap][39m [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: -1
+[debug] [35m[UiAutomator][39m Shutting down UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'stopping'
+[debug] [35m[UiAutomator][39m UiAutomator shut down normally
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Moving to state 'stopped'
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[debug] [35m[ADB][39m Running 'E:\Andriod_sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62025 shell am force-stop io.appium.unlock'
+[debug] [35m[AndroidDriver][39m Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+
+D:\Appium\appium_sync>

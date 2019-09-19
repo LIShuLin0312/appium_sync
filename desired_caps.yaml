@@ -1,0 +1,10 @@
+platformName: Android
+platformVersion: 5.1.1
+deviceName: 127.0.0.1:62025
+app: C:\Users\Shuqing\Desktop\kaoyan3.1.0.apk
+appPackage: com.tal.kaoyan
+appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+noReset: False
+unicodeKeyboard: True
+resetKeyboard: True
+ip: 127.0.0.1
